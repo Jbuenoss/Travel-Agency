@@ -1,5 +1,6 @@
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
+import ModalComponent from './ModalComponent';
 
 import img1 from '../assets/africa-do-sul.jpg'; //.. is realtive way
 import img2 from '../assets/greece.jpg';
@@ -17,7 +18,9 @@ function CarouselComponent(){
             <img src={img1} className="c-img"/>
             <Carousel.Caption className='top-0'>
               <h2 className="mb-3 fs-1">Discover the world with us</h2>
-              <Button variant="info" className="mb-5 px-4 py-2">Book a tour</Button>
+              
+              <ModalComponent className="mb-5 px-4 py-2"/>
+
               <h3 className="display-3 fw-bold mt-5 text-capitalize">unforgettable journeys</h3>
             </Carousel.Caption>
             <Carousel.Caption >
