@@ -1,6 +1,7 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import './style.css';
 
 function NavbarComponent(){
 
@@ -8,7 +9,7 @@ function NavbarComponent(){
     <Navbar expand="sm" className="bg-dark navbar-dark ">
       <Container>
 
-        <Navbar.Brand href="#home" className="text-uppercase">Travel Agency</Navbar.Brand> 
+        <Navbar.Brand href="#home" className="text-uppercase" id='primary-color'>Travel Agency</Navbar.Brand> 
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">

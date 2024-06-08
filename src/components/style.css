@@ -12,3 +12,16 @@
 #white-button {
     color: white;
 }
+
+.overview {
+    background-color: hsl(0, 0%, 85%);
+    height: 250px;
+}
+
+#primary-color{
+    color:hsl(187, 39%, 70%);
+}
+
+#primary-color:hover{
+    color:hsl(187, 39%, 50%);
+}
