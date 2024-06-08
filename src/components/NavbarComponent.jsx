@@ -14,7 +14,7 @@ function NavbarComponent(){
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">Packages</Nav.Link>
+            <Nav.Link href="#packages">Packages</Nav.Link>
             <Nav.Link href="#link">FAQ</Nav.Link>
           </Nav>
         </Navbar.Collapse>

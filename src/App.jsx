@@ -1,6 +1,7 @@
 import NavbarComponent from './components/NavbarComponent';
 import CarouselComponent from './components/CarouselComponent';
 import InfoCard from './components/InfoCard';
+import CardsComponent from './components/CardsComponent'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -11,6 +12,7 @@ function App() {
       <NavbarComponent/>
       <CarouselComponent/>
       <InfoCard/>
+      <CardsComponent/>
     </div>
   )
 }
