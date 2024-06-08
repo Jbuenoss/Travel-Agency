@@ -3,6 +3,8 @@ import CarouselComponent from './components/CarouselComponent';
 import InfoCard from './components/InfoCard';
 import CardsComponent from './components/CardsComponent'
 import Faq from './components/Faq';
+import Footer from './components/Footer';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
       <InfoCard/>
       <CardsComponent/>
       <Faq/>
+      <Footer/>
     </div>
   )
 }
