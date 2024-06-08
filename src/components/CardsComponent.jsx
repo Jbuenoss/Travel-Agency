@@ -13,7 +13,7 @@ function CardsComponent() {
         <div className='mt-3 ms-5 me-5' id='packages'>
             <h2 className='text-center mb-3'>Favorites Among Travelers</h2>
             <Row>
-                <Col>
+                <Col md sm={12} className='mb-2'>
                     <Card className="bg-dark text-white">
                         <Card.Img src={img1} alt="Card image" className='c-card-img' />
                         <Card.ImgOverlay >
@@ -22,13 +22,12 @@ function CardsComponent() {
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
                             </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
                             <ModalComponent/>
                         </Card.ImgOverlay>
                     </Card>
                 </Col>
 
-                <Col>
+                <Col md sm={12} className='mb-2'>
                     <Card className="bg-dark text-white">
                         <Card.Img src={img2} alt="Card image" className='c-card-img'/>
                         <Card.ImgOverlay>
@@ -37,13 +36,12 @@ function CardsComponent() {
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
                             </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
                             <ModalComponent/>
                         </Card.ImgOverlay>
                     </Card>
                 </Col>
 
-                <Col>
+                <Col md sm={12} className='mb-2'>
                     <Card className="bg-dark text-white">
                         <Card.Img src={img3} alt="Card image" className='c-card-img'/>
                         <Card.ImgOverlay>
@@ -52,7 +50,6 @@ function CardsComponent() {
                                 This is a wider card with supporting text below as a natural lead-in
                                 to additional content. This content is a little bit longer.
                             </Card.Text>
-                            <Card.Text>Last updated 3 mins ago</Card.Text>
                             <ModalComponent/>
                         </Card.ImgOverlay>
                     </Card>

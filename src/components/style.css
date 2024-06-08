@@ -20,6 +20,7 @@
 
 #primary-color{
     color:hsl(187, 39%, 70%);
+    font-weight:bold;
 }
 
 #primary-color:hover{
