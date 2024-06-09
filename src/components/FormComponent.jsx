@@ -22,6 +22,9 @@ function FormComponent() {
                             <option value="1">South Africa</option>
                             <option value="2">Greece</option>
                             <option value="3">Paris</option>
+                            <option value="4">New York</option>
+                            <option value="5">Rome</option>
+                            <option value="6">Sydney</option>
                         </Form.Select>
                     </Form.Group>
                 </Col>
