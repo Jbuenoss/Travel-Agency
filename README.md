@@ -24,6 +24,9 @@ This project is a Travel Agency website that was developed to be part of my pers
   ```npm install``` 
 ### Running
   ```npm run dev```
+
+## Deploy
+https://travelagency-ecru.vercel.app/
   
 ## Technologies Used:
 
